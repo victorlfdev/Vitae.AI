@@ -128,4 +128,4 @@ def main(page: ft.Page):
     page.add(sobre, github,img, tb1, tb2, tb3, dd1, dd2, b, resposta)
     page.update()
 
-ft.app(target=main)
+ft.app(main)
